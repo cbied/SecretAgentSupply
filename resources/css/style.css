@@ -78,3 +78,76 @@ html, body {
   font-weight: bold;
   text-align: left;
 }
+
+/* Navbar */
+
+#navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: firebrick;
+}
+
+#navbar ul {
+    display: flex;
+    align-self: center;
+}
+
+#navbar ul li {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  flex-grow: 2;
+  padding-left: 3.5rem;
+  padding-right: 4.5rem;
+}
+
+#navbar ul li a {
+  display: flex;
+  color: white;
+  text-decoration: none;
+}
+
+.sidenav {
+  flex-grow: 1;
+
+}
+
+/* Supply Display */
+
+#supplydisplay {
+  width: 100%;
+  display: flex;
+}
+
+.box {
+  display: flex;
+  width: 30%;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  border: 4px solid black;
+}
+
+.box img {
+  display: flex;
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid black;
+}
+
+.description {
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+.sidedisplay {
+  display: flex;
+  width: 9rem;
+  flex-grow: 1;
+}
